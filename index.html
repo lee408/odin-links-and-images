@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Webpage for links and images</title>
+    </head>
+    
+    <body>
+        <h1>Homepage</h1>
+        <a href="https://www.theodinproject.com/about">click me</a>
+        
+        <a href="pages/about.html">About</a>
+        
+        <!--prepending a './' makes the browser check within te current directory first, reducing problems-->
+        <a href="./pages/about.html">About</a>
+        
+        <!--Displaying images using the <img> tag and absolute paths-->
+        <img src="https://www.theodinproject.com/mstile-310x310.png">
+        
+        <!--Or we can use relative paths again, access our own images within the directory-->
+        <!--Use the alt attribute to display the description of the image if the src fails-->
+        <img src="images/dog.jpg" alt="The Odin Project Logo">
+
+        <!--Using relative paths, we can use '..' to go out one level, accessing parents-->
+    
+        <!--this links to the image practice html-->
+        <p><a href="pages/image-prac.html">IMAGES</a></p>
+        <p><a href="pages/extra.html">EXTRA</a></p>
+    </body>
+</html>
